@@ -1,0 +1,112 @@
+/*number 타입의 input에 수량조절 버튼 삭제*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* header */
+nav ul {
+  height: 20px;
+  text-align: right;
+  padding: 10px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li:last-child {
+  margin-right: 0;
+}
+.pageTop h2 {
+  font-size: 35px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-weight: bolder;
+  color: #4E944F;
+}
+
+/* main */
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.orderTitle {
+  font-size: 30px;
+  padding: 50px 50px 0 0;
+  font-weight: bolder;
+}
+
+.orderContainer {
+  padding-top: 20px;
+  min-height: 300px;
+}
+
+.shippingInfo {
+  display: flex;
+  gap: 20px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.addInfoTitle {
+  display:flex;
+}
+.getMyAdd {
+  margin-left: 15px;
+  background-color: #b4e197 !important; 
+  color: black !important;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.addressInfo {
+  display: flex;
+}
+
+#findAddress {
+  margin-left: 15px;
+  cursor: pointer;
+  background-color: #b4e197; 
+  color: black;
+}
+
+.payInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid #b4e197;
+  border-radius: 5px / 5px;;
+  line-height: 30px; 
+  min-width: 300px;
+}
+.payInfoTitle {
+  font-size: 25px;
+  font-weight: 500;;
+}
+.crossLine {
+  margin: 10px 0;
+}
+
+#ordering{
+  background-color: #4E944F;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+}
